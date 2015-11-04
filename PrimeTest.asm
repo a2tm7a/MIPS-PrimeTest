@@ -1,9 +1,13 @@
+# GroupID-36 (14116013_14119003) - Amit Manchanda & Abhinav Kaushal Keshari
+# Date: November 04, 2015
+# Addition.asm - Primality test
+
 .data
 get_a_number:	.asciiz "\n\nEnter a number: "
 ResultYes:	.asciiz "Congratulations! The number is prime."
 ResultNo:	.asciiz "We are sorry to announce that the number is not prime."
 
-# $a1=num; $s0=i; $s1=f; $s2=(num/2)+1
+# Registers Used: $a1=num; $s0=i; $s1=f; $s2=(num/2)+1;
 
 .text
 
